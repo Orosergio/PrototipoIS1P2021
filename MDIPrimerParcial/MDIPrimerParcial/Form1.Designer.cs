@@ -38,9 +38,10 @@
             this.herramientasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.seguridadToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cambioDeContraseñaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mantenimientoDeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.txtUsuario = new System.Windows.Forms.TextBox();
-            this.mantenimientoDeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cerrarSesiónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -61,6 +62,8 @@
             // 
             // abrirToolStripMenuItem
             // 
+            this.abrirToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.cerrarSesiónToolStripMenuItem});
             this.abrirToolStripMenuItem.Name = "abrirToolStripMenuItem";
             this.abrirToolStripMenuItem.Size = new System.Drawing.Size(45, 20);
             this.abrirToolStripMenuItem.Text = "Abrir";
@@ -121,9 +124,16 @@
             // cambioDeContraseñaToolStripMenuItem
             // 
             this.cambioDeContraseñaToolStripMenuItem.Name = "cambioDeContraseñaToolStripMenuItem";
-            this.cambioDeContraseñaToolStripMenuItem.Size = new System.Drawing.Size(256, 22);
+            this.cambioDeContraseñaToolStripMenuItem.Size = new System.Drawing.Size(220, 22);
             this.cambioDeContraseñaToolStripMenuItem.Text = "Cambio de Contraseña";
             this.cambioDeContraseñaToolStripMenuItem.Click += new System.EventHandler(this.cambioDeContraseñaToolStripMenuItem_Click);
+            // 
+            // mantenimientoDeToolStripMenuItem
+            // 
+            this.mantenimientoDeToolStripMenuItem.Name = "mantenimientoDeToolStripMenuItem";
+            this.mantenimientoDeToolStripMenuItem.Size = new System.Drawing.Size(220, 22);
+            this.mantenimientoDeToolStripMenuItem.Text = "Mantenimiento de Usuarios";
+            this.mantenimientoDeToolStripMenuItem.Click += new System.EventHandler(this.mantenimientoDeToolStripMenuItem_Click);
             // 
             // ayudaToolStripMenuItem
             // 
@@ -139,12 +149,12 @@
             this.txtUsuario.TabIndex = 2;
             this.txtUsuario.Visible = false;
             // 
-            // mantenimientoDeToolStripMenuItem
+            // cerrarSesiónToolStripMenuItem
             // 
-            this.mantenimientoDeToolStripMenuItem.Name = "mantenimientoDeToolStripMenuItem";
-            this.mantenimientoDeToolStripMenuItem.Size = new System.Drawing.Size(256, 22);
-            this.mantenimientoDeToolStripMenuItem.Text = "Mantenimiento de Usuarios";
-            this.mantenimientoDeToolStripMenuItem.Click += new System.EventHandler(this.mantenimientoDeToolStripMenuItem_Click);
+            this.cerrarSesiónToolStripMenuItem.Name = "cerrarSesiónToolStripMenuItem";
+            this.cerrarSesiónToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.cerrarSesiónToolStripMenuItem.Text = "Cerrar Sesión";
+            this.cerrarSesiónToolStripMenuItem.Click += new System.EventHandler(this.cerrarSesiónToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -156,7 +166,7 @@
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "0901-17-6739 Yavhé Orozco";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
@@ -180,6 +190,7 @@
         private System.Windows.Forms.ToolStripMenuItem ingresoDeUsuariosToolStripMenuItem;
         private System.Windows.Forms.TextBox txtUsuario;
         private System.Windows.Forms.ToolStripMenuItem mantenimientoDeToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cerrarSesiónToolStripMenuItem;
     }
 }
 

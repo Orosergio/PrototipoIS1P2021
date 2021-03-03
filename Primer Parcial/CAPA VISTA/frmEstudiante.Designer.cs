@@ -215,7 +215,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.navegador1);
             this.Name = "frmEstudiante";
-            this.Text = "frmEstudiante";
+            this.Text = "0901-17-6739 Yavhé Orozco";
             this.Load += new System.EventHandler(this.frmEstudiante_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

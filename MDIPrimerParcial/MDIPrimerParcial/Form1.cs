@@ -95,5 +95,14 @@ namespace MDIPrimerParcial
             cambioContraseña.MdiParent = this;
             cambioContraseña.Show();
         }
+
+        private void cerrarSesiónToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmLogin frm = new frmLogin();
+            if (frm.ShowDialog() == DialogResult.OK)
+            {
+                txtUsuario.Text = frm.usuario();
+            }
+        }
     }
 }
