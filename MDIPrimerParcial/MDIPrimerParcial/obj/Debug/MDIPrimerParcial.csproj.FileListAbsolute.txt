@@ -1,0 +1,10 @@
+D:\Desktop\PRIMERPARCIAL\MDIPrimerParcial\MDIPrimerParcial\bin\Debug\MDIPrimerParcial.exe.config
+D:\Desktop\PRIMERPARCIAL\MDIPrimerParcial\MDIPrimerParcial\bin\Debug\MDIPrimerParcial.exe
+D:\Desktop\PRIMERPARCIAL\MDIPrimerParcial\MDIPrimerParcial\bin\Debug\MDIPrimerParcial.pdb
+D:\Desktop\PRIMERPARCIAL\MDIPrimerParcial\MDIPrimerParcial\obj\Debug\MDIPrimerParcial.csprojAssemblyReference.cache
+D:\Desktop\PRIMERPARCIAL\MDIPrimerParcial\MDIPrimerParcial\obj\Debug\MDIPrimerParcial.Form1.resources
+D:\Desktop\PRIMERPARCIAL\MDIPrimerParcial\MDIPrimerParcial\obj\Debug\MDIPrimerParcial.Properties.Resources.resources
+D:\Desktop\PRIMERPARCIAL\MDIPrimerParcial\MDIPrimerParcial\obj\Debug\MDIPrimerParcial.csproj.GenerateResource.cache
+D:\Desktop\PRIMERPARCIAL\MDIPrimerParcial\MDIPrimerParcial\obj\Debug\MDIPrimerParcial.csproj.CoreCompileInputs.cache
+D:\Desktop\PRIMERPARCIAL\MDIPrimerParcial\MDIPrimerParcial\obj\Debug\MDIPrimerParcial.exe
+D:\Desktop\PRIMERPARCIAL\MDIPrimerParcial\MDIPrimerParcial\obj\Debug\MDIPrimerParcial.pdb
